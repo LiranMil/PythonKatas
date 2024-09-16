@@ -3,6 +3,7 @@ def greeting(name):
     Returns a personalized greeting message with the given `name`.
     """
 
+    return "hello " + name
 
 greeting_msg = greeting('David')
 print(greeting_msg)  # "hello David" should be printed

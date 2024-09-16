@@ -2,8 +2,10 @@ def add_string_numbers(num1, num2, num3):
     """
     Converts the given string numbers to integers and returns their sum.
     """
-
-
+    int1 = int(num1)
+    int2 = int(num2)
+    int3 = int(num3)
+    return int1 + int2 + int3
 
 result = add_string_numbers("10", "20", "30")
 print(result)  # 60 expected

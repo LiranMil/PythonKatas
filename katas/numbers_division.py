@@ -2,7 +2,7 @@ def numbers_division(a, b):
     """
     Performs division on two integers.
     """
-
+    return a / b
 
 result = numbers_division(10, 3)
 print(result)  # Expected output: 3.3333

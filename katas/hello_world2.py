@@ -5,7 +5,7 @@ def create_greeting():
     greeting = "Hello"
     name = 'world'
 
-
+    return greeting + ", " + name + "!"
 result = create_greeting()
 print(result)  # "Hello, world!" expected
 
